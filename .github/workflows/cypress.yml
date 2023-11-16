@@ -11,9 +11,13 @@ jobs:
       - name: Prepare report  
         run: |
             mkdir -p reports
-            mv cucumber-report.html reports/cucumber-report.html
+            mv cucumber-report.html reports/index.html
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
             publish_dir: reports
+      - name: Print Report Link
+        run: |
+          echo "Report: https://mariana-zaozirna.github.io/cy_cucumber/index.html" >> $GITHUB_STEP_SUMMARY
+          
