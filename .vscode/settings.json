@@ -1,0 +1,14 @@
+{
+  "cucumberautocomplete.steps": ["cypress/e2e/steps/*.ts"],
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.syncfeatures": "cypress/e2e/features/*.feature",
+  "cucumberautocomplete.stepsInvariants": true,
+  "editor.quickSuggestions": {
+    "comments": false,
+    "strings": true,
+    "other": true
+  },
+  "cucumber.glue": ["cypress/e2e/steps/*.ts"],
+  "cucumber.features": ["cypress/e2e/features/*.feature"]
+}

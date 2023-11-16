@@ -1,0 +1,11 @@
+{
+  "stepDefinitions": [
+    "cypress/e2e/[filepath]/**/*.{js,ts}",
+    "cypress/e2e/[filepath].{js,ts}",
+    "cypress/e2e/steps/*.{js,ts}",
+    "cypress/support/step_definitions/**/*.{js,ts}"
+  ],
+  "html": {
+    "enabled": true
+  }
+}

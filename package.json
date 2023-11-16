@@ -1,0 +1,23 @@
+{
+  "name": "saucedemo_cy_cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cypress open",
+    "test": "npx cypress run",
+    "prettier:format": "npx prettier . --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber-html-reporter": "^7.1.1",
+    "cypress": "^13.5.0",
+    "prettier": "3.1.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^19.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0"
+  }
+}
